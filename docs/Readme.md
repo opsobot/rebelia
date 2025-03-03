@@ -52,14 +52,16 @@ The custom firmware is located in the /firmware directory. Instructions for comp
 
 Licensing
 =========
-This project is licensed under the CERN Open Hardware License Strongly Reciprocal v2 (CERN OHL-S).
+This project is licensed under multiple licenses:
+* Hardware : released under the CERN Open Hardware License Strongly Reciprocal v2 (CERN OHL-S). Full license text: https://ohwr.org/project/cernohl/-/wikis/uploads/819d71bea3458f71fba6cf4fb0f2de6b/cern_ohl_s_v2.txt
+* Firmware : released under the GNU CPL License (GNU GPL). Full license text: https://www.gnu.org/licenses/gpl-3.0.txt
+* Multimedia : released under the Creative Commons Share-Alike License (CC-BY-SA). Full license text: https://creativecommons.org/licenses/by-sa/4.0/deed.en
 
 By using or modifying this hardware, you agree to:
 * Credit the original authors.
 * Share any modifications or derivatives under the same CERN OHL-S license.
 * Prevent patent claims on the design.
 
-Full license text: CERN OHL-S v2
 
 
 Contributing
