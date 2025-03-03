@@ -71,7 +71,8 @@ We welcome contributions! Please:
 
 Defensive Publication
 =====================
-This design is publicly released to establish prior art and prevent patenting by third parties. Our goal is to ensure that the robotic hand remains open and accessible to all.
+This design is publicly released to establish prior art and prevent patenting by third parties. 
+Our goal is to ensure that the robotic hand remains open and accessible to all.
 For further information, visit our website: robotgarage.org
 
 Contact
