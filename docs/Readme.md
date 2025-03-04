@@ -9,7 +9,8 @@ Welcome to the Robotic Hand Project — an open-source, humanlike robotic hand d
 
 Our goal is to provide an affordable, high-performance robotic hand under 2000 EUR, open to community contributions and continuous improvement.
 
-This project is released under the CERN Open Hardware License (OHL-S), ensuring the design remains open-source and preventing patent claims on its core innovations.
+This project hardware is released under the CERN Open Hardware License (OHL-S), ensuring the design remains open-source and preventing patent claims on its core innovations.
+The firware is released under the GPL License (GNU GPL).
 
 Features
 * Fully 3D-printable design using affordable materials.
@@ -23,14 +24,16 @@ Repository Structure
 ```
 /hardware
   ├── CAD/ (STEP, IGES, and native formats like Blender or SolidWorks)
+    ├── LICENSE (CERN OHL-S)
   ├── renders/ (images of the robotic hand)
+    ├── LICENSE (CC-BY-SA)
   ├── BOM.md (Bill of Materials — list of components and suppliers)
 /firmware
+  ├── LICENSE (GNU GPL)
   ├── src/ (firmware code)
   ├── README.md (how to compile and upload the firmware)
-/docs
-  ├── LICENSE (CERN OHL-S)
-  ├── README.md (project overview)
+├── LICENSE (general)
+├── README.md (project overview)
 ```
 
 
@@ -52,14 +55,17 @@ The custom firmware is located in the /firmware directory. Instructions for comp
 
 Licensing
 =========
-This project is licensed under the CERN Open Hardware License Strongly Reciprocal v2 (CERN OHL-S).
+This project is licensed under multiple licenses:
+* Hardware : released under the CERN Open Hardware License Strongly Reciprocal v2 (CERN OHL-S). Full license text: https://ohwr.org/project/cernohl/-/wikis/uploads/819d71bea3458f71fba6cf4fb0f2de6b/cern_ohl_s_v2.txt
+* Firmware : released under the GNU CPL License (GNU GPL). Full license text: https://www.gnu.org/licenses/gpl-3.0.txt
+* Multimedia : released under the Creative Commons Share-Alike License (CC-BY-SA). Full license text: https://creativecommons.org/licenses/by-sa/4.0/deed.en
 
 By using or modifying this hardware, you agree to:
 * Credit the original authors.
-* Share any modifications or derivatives under the same CERN OHL-S license.
+* Share any modifications or derivatives to hardware under the same CERN OHL-S license.
+* Share any modifications or derivatives to firmware under the same GNU GPL license.
+* Share any modifications or derivatives to multimedia content under the same CC-BY-SA license.
 * Prevent patent claims on the design.
-
-Full license text: CERN OHL-S v2
 
 
 Contributing
