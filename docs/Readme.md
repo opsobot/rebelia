@@ -24,14 +24,16 @@ Repository Structure
 ```
 /hardware
   ├── CAD/ (STEP, IGES, and native formats like Blender or SolidWorks)
+    ├── LICENSE (CERN OHL-S)
   ├── renders/ (images of the robotic hand)
+    ├── LICENSE (CC-BY-SA)
   ├── BOM.md (Bill of Materials — list of components and suppliers)
 /firmware
+  ├── LICENSE (GNU GPL)
   ├── src/ (firmware code)
   ├── README.md (how to compile and upload the firmware)
-/docs
-  ├── LICENSE (CERN OHL-S)
-  ├── README.md (project overview)
+├── LICENSE (general)
+├── README.md (project overview)
 ```
 
 
