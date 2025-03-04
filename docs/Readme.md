@@ -9,7 +9,8 @@ Welcome to the Robotic Hand Project — an open-source, humanlike robotic hand d
 
 Our goal is to provide an affordable, high-performance robotic hand under 2000 EUR, open to community contributions and continuous improvement.
 
-This project is released under the CERN Open Hardware License (OHL-S), ensuring the design remains open-source and preventing patent claims on its core innovations.
+This project hardware is released under the CERN Open Hardware License (OHL-S), ensuring the design remains open-source and preventing patent claims on its core innovations.
+The firware is released under the GPL License (GNU GPL).
 
 Features
 * Fully 3D-printable design using affordable materials.
