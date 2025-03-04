@@ -62,9 +62,10 @@ This project is licensed under multiple licenses:
 
 By using or modifying this hardware, you agree to:
 * Credit the original authors.
-* Share any modifications or derivatives under the same CERN OHL-S license.
+* Share any modifications or derivatives to hardware under the same CERN OHL-S license.
+* Share any modifications or derivatives to firmware under the same GNU GPL license.
+* Share any modifications or derivatives to multimedia content under the same CC-BY-SA license.
 * Prevent patent claims on the design.
-
 
 
 Contributing
