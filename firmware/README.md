@@ -72,7 +72,7 @@ To use this firmware with the Arduino IDE, you must install the following librar
 
 TODO
 ====
-1. Use libraries from arduino library manager instead of the donwloaded ones.
+1. Use libraries from Arduino Library Manager instead of the downloaded ones.
 2. Test library installation.
 
 
@@ -93,16 +93,17 @@ This firmware may reference external libraries via `#include <library.h>`. These
 
 Please refer to the following external dependencies:
 
-* Library 1: [License type] — [Link to library's website or repo]
-* Library 2: [License type] — [Link to library's website or repo]
-
+* SCServo by FT&WS: (GNU GPL) — [https://github.com/workloads/scservo]
+* BluetoothSerial by Henry Abrahansen: [License type] — [https://github.com/hen1227/bluetooth-serial]
+* FFT by Robin Scheibler: (Custom License) — [https://github.com/Tinyu-Zhao/FFT]
+  
 
 How to Compile and Upload
 =========================
 
 Ensure you have all dependencies installed.
 
-Navigate to the firmware directory, open the .ino file using Arduino IDE.
+Navigate to the firmware directory and open the .ino file using Arduino IDE.
 
 Use Arduino IDE to build and upload the binary to the microcontroller board.
 
