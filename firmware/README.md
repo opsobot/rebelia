@@ -72,8 +72,16 @@ To use this firmware with the Arduino IDE, you must install the following librar
 
 TODO
 ====
-1. Use libraries from Arduino Library Manager instead of the downloaded ones.
-2. Test library installation.
+1. Install  Arduino IDE 2
+2. Open Arduino IDE 2
+3. Open RebeliaHuman sketch
+4. Open Boards Manager
+	1. Install esp32 by Expressif Systems
+5. Open Library Manager
+	1. Search and install SCServo by FT&WS
+	2. Download https://github.com/yash-sanghvi/ESP32/files/6474828/ESPfft.zip and save into Arduino 'libraries' folder.
+	3. TODO Search and install FFT by Robin Scheibler
+	4. Search and install Bluetooth by FT&WS
 
 
 How to Install Libraries
