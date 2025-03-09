@@ -79,7 +79,7 @@ TODO
 	1. Install esp32 by Expressif Systems
 5. Open Library Manager
 	1. Search and install SCServo by FT&WS
-	2. Download https://github.com/yash-sanghvi/ESP32/files/6474828/ESPfft.zip and save into Arduino 'libraries' folder.
+	2. Download https://github.com/yash-sanghvi/ESP32/files/6474828/ESPfft.zip then extract it and save it into Arduino 'libraries' folder.
 	3. TODO Search and install FFT by Robin Scheibler
 	4. Search and install Bluetooth by FT&WS
 
