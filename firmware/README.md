@@ -45,7 +45,9 @@ Each source file contains a copyright notice similar to the following:
 /*
 Rebelia-Hand-Firmware is the control software for the Rebelia Hand
 
-https://www.robotgarage.org
+Website: https://www.robotgarage.org
+Author: Vittorio Lumare
+Email: vittorio.lumar@robotgarage.org 
 
 MIT License
 
