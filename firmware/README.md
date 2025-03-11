@@ -61,51 +61,57 @@ Each source file contains a copyright notice similar to the following:
  */
 ```
 
+External Libraries
+==================
+This firmware may reference external libraries via `#include <library.h>`. These libraries are not included in this repository, and it is the user's responsibility to ensure they are installed and correctly licensed.
+
+Please refer to the following external dependencies:
+
+* SCServo by FT&WS: (GNU GPL) — [https://github.com/workloads/scservo]
+* BluetoothSerial by Henry Abrahamsen: [License type] — [https://github.com/hen1227/bluetooth-serial]
+* ESP32FFT modified version by Vittorio Lumare: (Custom License) — [https://github.com/vittorio-lumare/ESP32FFT]
+	* Note:  The original version is by Robin Scheibler [https://github.com/fakufaku/esp32-fft]
+
 Dependencies
 ============
 
 To use this firmware with the Arduino IDE, you must install the following libraries:
 
 * SCServo by FT&WS
-* BluetoothSerial by Henry Abrahansen
-* FFT by Robin Scheibler 
+* BluetoothSerial by Henry Abrahamsen
+* ESP32FFT modified version by Vittorio Lumare
 
-TODO
-====
-1. Install  Arduino IDE 2
-2. Open Arduino IDE 2
-3. Open RebeliaHuman sketch
-4. Open Boards Manager
-	1. Install esp32 by Expressif Systems
-5. Open Library Manager
-	1. Search and install SCServo by FT&WS
-	2. Download https://github.com/yash-sanghvi/ESP32/files/6474828/ESPfft.zip then extract it and save it into Arduino 'libraries' folder.
-	TODO: push my version of ESP_fft on my repo with license, then include it in arduino project file
-	4. TODO Search and install FFT by Robin Scheibler
-	5. Search and install Bluetooth by FT&WS
+Prepare the Arduino IDE for ESP32
+=================================
+1. Install the Arduino IDE 2
+2. Open the Arduino IDE 2
+3. Open the Arduino Boards Manager
+	1. Install 'esp32' by Expressif Systems
 
 
-How to Install Libraries
-------------------------
+Install the Libraries
+=====================
+Note: some libraries are manually installed, others using Arduino's Library Manager. Both steps are required.
+
+Libraries with manual installation:
+1. Install the ESP32FFT library:
+2. Download the ESP32FFT Arduino library from [https://github.com/vittorio-lumare/ESP32FFT]
+3. Save the 'ESPfft' folder in your `Documents/Arduino/libraries` folder.
+
+Libraries with automatic installation:
 1. Open Arduino IDE.
 2. Go to Sketch → Include Library → Manage Libraries.
-3. In the Library Manager, search for the required libraries (e.g., SCServo) and click Install.
-4. Ensure you're using the correct versions specified here.
+3. Open the Arduino's Library Manager:
+	1. Search and install 'SCServo' by FT&WS
+ 	2. Search and install 'BluetoothSerial' by Henry Abrahamsen
 
-Alternatively, you can manually install libraries by downloading them and placing them in your `Documents/Arduino/libraries folder`.
+Alternatively, you can manually install these libraries by downloading them and placing them in your `Documents/Arduino/libraries` folder.
 
+Prepare the 'Rebelia Human' sketch
+==================================
+1. Open the Arduino IDE 2
+2. Open 'RebeliaHuman' sketch
 
-External Libraries
-==================
-
-This firmware may reference external libraries via `#include <library.h>`. These libraries are not included in this repository, and it is the user's responsibility to ensure they are installed and correctly licensed.
-
-Please refer to the following external dependencies:
-
-* SCServo by FT&WS: (GNU GPL) — [https://github.com/workloads/scservo]
-* BluetoothSerial by Henry Abrahansen: [License type] — [https://github.com/hen1227/bluetooth-serial]
-* FFT by Robin Scheibler: (Custom License) — [https://github.com/Tinyu-Zhao/FFT]
-  
 
 How to Compile and Upload
 =========================
@@ -115,9 +121,6 @@ Ensure you have all dependencies installed.
 Navigate to the firmware directory and open the .ino file using Arduino IDE.
 
 Use Arduino IDE to build and upload the binary to the microcontroller board.
-
-
-TODO: Arduino configuration
 
 
 Contributions
