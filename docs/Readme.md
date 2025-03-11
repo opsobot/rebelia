@@ -10,7 +10,9 @@ Welcome to the Rebelia Hand Project — an open-source, humanlike robotic hand d
 Our goal is to provide an affordable, high-performance robotic hand under 2000 EUR, open to community contributions and continuous improvement.
 
 This project hardware is released under the CERN Open Hardware License (OHL-S), ensuring the design remains open-source and preventing patent claims on its core innovations.
+
 The firmware is released under the MIT License.
+
 The documentation is released under the CC-BY License.
 
 
