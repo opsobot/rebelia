@@ -5,7 +5,7 @@ Rebelia - An Open Source Robotic Hand for Humans and Robots
 Overview
 ========
 
-Welcome to the Robotic Hand Project — an open-source, humanlike robotic hand designed for researchers, students, and robotics enthusiasts.
+Welcome to the Rebelia Hand Project — an open-source, humanlike robotic hand designed for researchers, students, and robotics enthusiasts.
 
 Our goal is to provide an affordable, high-performance robotic hand under 2000 EUR, open to community contributions and continuous improvement.
 
