@@ -61,7 +61,7 @@ Each source file contains a copyright notice similar to the following:
  */
 ```
 
-External Libraries
+Dependencies
 ==================
 This firmware may reference external libraries via `#include <library.h>`. These libraries are not included in this repository, and it is the user's responsibility to ensure they are installed and correctly licensed.
 
@@ -72,14 +72,6 @@ Please refer to the following external dependencies:
 * ESP32FFT modified version by Vittorio Lumare: (Custom License) — [https://github.com/vittorio-lumare/ESP32FFT]
 	* Note:  The original version is by Robin Scheibler [https://github.com/fakufaku/esp32-fft]
 
-Dependencies
-============
-
-To use this firmware with the Arduino IDE, you must install the following libraries:
-
-* SCServo by FT&WS
-* BluetoothSerial by Henry Abrahamsen
-* ESP32FFT modified version by Vittorio Lumare
 
 Prepare the Arduino IDE for ESP32
 =================================
@@ -116,16 +108,13 @@ Prepare the 'Rebelia Human' sketch
 How to Compile and Upload
 =========================
 
-Ensure you have all dependencies installed.
-
-Navigate to the firmware directory and open the .ino file using Arduino IDE.
-
-Use Arduino IDE to build and upload the binary to the microcontroller board.
+1. Ensure you have all dependencies installed.
+2. Navigate to the firmware directory and open the .ino file using Arduino IDE.
+3. Use Arduino IDE to build and upload the binary to the microcontroller board.
 
 
 Contributions
 =============
-
 Contributions are welcome! To contribute:
 
 1. Fork the repo.
@@ -135,8 +124,7 @@ Contributions are welcome! To contribute:
 
 Contact
 =======
-
 For any questions or collaboration, reach out at: vittorio.lumare@robotgarage.org
-
+Please stay tuned on https://www.robotgarage.org
 Feel free to open issues for bugs, feature requests, or discussions!
 
