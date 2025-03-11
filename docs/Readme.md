@@ -1,7 +1,6 @@
 Rebelia - An Open Source Robotic Hand for Humans and Robots
 ===========================================================
 
-
 Overview
 ========
 
@@ -72,9 +71,9 @@ The custom firmware is located in the /firmware directory. Instructions for comp
 Licensing
 =========
 This project is licensed under multiple licenses:
-* Hardware : released under the CERN Open Hardware License Strongly Reciprocal v2 (CERN OHL-S). Full license text: [https://ohwr.org/project/cernohl/-/wikis/uploads/819d71bea3458f71fba6cf4fb0f2de6b/cern_ohl_s_v2.txt]
-* Firmware : released under the MIT License (MIT). Full license text: [https://www.mit.edu/~amini/LICENSE.md]
-* Multimedia : released under the Creative Commons Attribution License (CC-BY). Full license text: [https://creativecommons.org/licenses/by/4.0/]
+* Hardware : released under the CERN Open Hardware License Strongly Reciprocal v2 (CERN OHL-S). [Full license text](https://ohwr.org/project/cernohl/-/wikis/uploads/819d71bea3458f71fba6cf4fb0f2de6b/cern_ohl_s_v2.txt)
+* Firmware : released under the MIT License (MIT). [Full license text](https://www.mit.edu/~amini/LICENSE.md)
+* Multimedia : released under the Creative Commons Attribution License (CC-BY). [Full license text](https://creativecommons.org/licenses/by/4.0/)
 
 By using or modifying this hardware, software and/or documentation, you agree to:
 * Credit the original authors.
@@ -82,7 +81,6 @@ By using or modifying this hardware, software and/or documentation, you agree to
 * If you release any modifications or derivatives to firmware, they must be released under the same MIT license.
 * If you release any modifications or derivatives to multimedia content, they must be released under the same CC-BY license.
 * Prevent patent claims on the design and any derivative works.
-
 
 Contributing
 ============
