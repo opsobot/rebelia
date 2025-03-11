@@ -5,15 +5,13 @@ Hardware
 ========
 Hardware is released under the CERN Open Hardware License Strongly Reciprocal v2 (CERN OHL-S). 
 
-Hardware consists in : CAD files.
+Hardware consists of CAD files.
 
 Firmware
 ========
-Hardware is released under the GNU General Public License (GNU GPL). 
-
-Firmware consists in source code for ESP32 based board.
-
+Hardware is released under the MIT license.
+Firmware consists of source code for the ESP32-based board.
 
 Pictures
 ========
-Pictures and photos are released under the  Creative Commons Attribution Share-Alike License (CC-By-SA)
+Pictures and photos are released under the Creative Commons Attribution License (CC-BY)
