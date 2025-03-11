@@ -43,9 +43,9 @@ Copyright Notice
 Each source file contains a copyright notice similar to the following:
 
 ```
-/*
- * *TODO put MIT one
- */
+
+
+
 ```
 
 Dependencies
