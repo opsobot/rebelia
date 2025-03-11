@@ -7,7 +7,7 @@ Overview
 
 This folder contains the firmware for the Robotic Hand Project, responsible for controlling the servomotors and processing commands for hand movements. The firmware is designed to work seamlessly with the open-source hardware of the robotic hand.
 
-The firmware is licensed under the GNU General Public License v3 (GPLv3), ensuring that any modifications or derivatives remain open-source and freely available to the community.
+The firmware is licensed under the MIT License, ensuring that any modifications or derivatives remain open-source and freely available to the community.
 
 Structure
 =========
@@ -24,15 +24,15 @@ Structure
 Licensing
 =========
 
-The firmware in this folder is released under the GNU General Public License v3 (GPLv3).
+The firmware in this folder is released under the MIT License.
 
 By using or modifying this firmware, you agree to:
 
 Attribute the original authors.
 
-Share any modified versions of this firmware under the same GPLv3 license.
+If you distribute any modified versions of this firmware, they must be released under the same MIT license.
 
-Include a copy of the GPLv3 license with any distribution of this firmware.
+Include a copy of the MIT license with any distribution of this firmware.
 
 You can find the full license text in the LICENSE.txt file.
 
