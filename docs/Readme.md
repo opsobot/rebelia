@@ -60,12 +60,12 @@ This project is licensed under multiple licenses:
 * Firmware : released under the GNU CPL License (GNU GPL). Full license text: https://www.gnu.org/licenses/gpl-3.0.txt
 * Multimedia : released under the Creative Commons Share-Alike License (CC-BY-SA). Full license text: https://creativecommons.org/licenses/by-sa/4.0/deed.en
 
-By using or modifying this hardware, you agree to:
+By using or modifying this hardware, software and/or documentation, you agree to:
 * Credit the original authors.
-* Share any modifications or derivatives to hardware under the same CERN OHL-S license.
-* Share any modifications or derivatives to firmware under the same GNU GPL license.
-* Share any modifications or derivatives to multimedia content under the same CC-BY-SA license.
-* Prevent patent claims on the design.
+* If you release any modifications or derivatives to hardware, they must be released under the same CERN OHL-S license.
+* If you release any modifications or derivatives to firmware, they must be released under the same MIT license.
+* If you release any modifications or derivatives to multimedia content, they must be released under the same CC-BY license.
+* Prevent patent claims on the design and any derivative works.
 
 
 Contributing
