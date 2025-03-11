@@ -20,6 +20,18 @@ Features
 * Custom firmware for precise motor control.
 * Modularity for easy upgrades and customization.
 
+Our Approach to Open-Source Release
+===================================
+We use non-copyleft licenses to help us maintain a sustainable business model while still contributing to the open-source community. Our strategy is as follows:
+
+1. Delaying Open-Source Release: We release each version of our design (source code, CAD files, documentation, etc.) under a non-copyleft, permissive license, but only after we have generated enough revenue to ensure the viability of our business. This allows us to focus on research, development, and support for our products without relying solely on open-source contributions or donations.
+2. Maintaining Business Sustainability: By withholding the release of the source code or documentation for a new version until we've earned enough to support ongoing development, we can sustain our operations, pay for necessary resources, and invest in the improvement of the product. This strategy ensures that we can continue to develop new versions without compromising the financial health of our business.
+3. Open-Source Releases with New Versions: Once a new version of the product is ready to be put on the market, we make the previous version open source, providing the source code, CAD files, and documentation to the community. This allows us to build on the contributions of others and encourage collaboration while ensuring we have sufficient financial backing from our latest commercial release.
+4. Cycle of Continuous Development: Each version will be released commercially first, and only after we’re confident that the business can support the next phase will we release it as open-source. The new version will follow this pattern, ensuring that we’re always maintaining a healthy cycle of innovation and sustainability for our business.
+
+This strategy enables us to balance open-source principles with the practical needs of running a business, ensuring that we can continue to develop, innovate, and support the community in the long term.
+
+
 Repository Structure
 ====================
 
