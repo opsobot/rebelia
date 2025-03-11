@@ -56,13 +56,12 @@ CAD Files
 =========
 
 Our CAD files are hosted on both GitHub and GrabCAD:
-* GitHub (for version control and collaboration): View CAD files here
-* GrabCAD (for easy preview and download): View on GrabCAD
+* GitHub (for version control and collaboration): [View CAD files here](https://github.com/opsobot/rebelia/tree/main/hardware/CAD)
+* GrabCAD (for easy preview and download): [View on GrabCAD](https://grabcad.com/library/rebelia-hand-1)
 
 Bill of Materials (BOM)
 =======================
 Find the full list of commercial components required to build the robotic hand in BOM.md.
-
 
 Firmware
 ========
