@@ -40,10 +40,10 @@ Repository Structure
   ├── CAD/ (STEP, IGES, and native formats like Blender or SolidWorks)
     ├── LICENSE (CERN OHL-S)
   ├── renders/ (images of the robotic hand)
-    ├── LICENSE (CC-BY-SA)
+    ├── LICENSE (CC-BY)
   ├── BOM.md (Bill of Materials — list of components and suppliers)
 /firmware
-  ├── LICENSE (GNU GPL)
+  ├── LICENSE (MIT)
   ├── src/ (firmware code)
   ├── README.md (how to compile and upload the firmware)
 ├── LICENSE (general)
@@ -70,9 +70,9 @@ The custom firmware is located in the /firmware directory. Instructions for comp
 Licensing
 =========
 This project is licensed under multiple licenses:
-* Hardware : released under the CERN Open Hardware License Strongly Reciprocal v2 (CERN OHL-S). Full license text: https://ohwr.org/project/cernohl/-/wikis/uploads/819d71bea3458f71fba6cf4fb0f2de6b/cern_ohl_s_v2.txt
-* Firmware : released under the GNU CPL License (GNU GPL). Full license text: https://www.gnu.org/licenses/gpl-3.0.txt
-* Multimedia : released under the Creative Commons Share-Alike License (CC-BY-SA). Full license text: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+* Hardware : released under the CERN Open Hardware License Strongly Reciprocal v2 (CERN OHL-S). Full license text: [https://ohwr.org/project/cernohl/-/wikis/uploads/819d71bea3458f71fba6cf4fb0f2de6b/cern_ohl_s_v2.txt]
+* Firmware : released under the MIT License (MIT). Full license text: [https://www.mit.edu/~amini/LICENSE.md]
+* Multimedia : released under the Creative Commons Attribution License (CC-BY). Full license text: [https://creativecommons.org/licenses/by/4.0/]
 
 By using or modifying this hardware, software and/or documentation, you agree to:
 * Credit the original authors.
