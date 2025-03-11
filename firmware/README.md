@@ -1,11 +1,10 @@
-Firmware for Rebelia - An Open Source Robotic Hand for Humans and Robots
-===========================================================
-
+Rebelia Hand Firmware
+=====================
 
 Overview
 ========
 
-This folder contains the firmware for the Robotic Hand Project, responsible for controlling the servomotors and processing commands for hand movements. The firmware is designed to work seamlessly with the open-source hardware of the robotic hand.
+This folder contains the firmware for the Rebelia Hand, responsible for controlling the servomotors and processing commands for hand movements. The firmware is designed to work seamlessly with the open-source hardware of the robotic hand.
 
 The firmware is licensed under the MIT License, ensuring that any modifications or derivatives remain open-source and freely available to the community.
 
