@@ -6,7 +6,7 @@ Overview
 
 This folder contains the firmware for the Rebelia Hand, responsible for controlling the servomotors and processing commands for hand movements. The firmware is designed to work seamlessly with the open-source hardware of the robotic hand.
 
-The firmware is licensed under the MIT License, ensuring that any modifications or derivatives remain open-source and freely available to the community.
+The firmware is licensed under the GNU GPL License, ensuring that any modifications or derivatives remain open-source and freely available to the community.
 
 Structure
 =========
@@ -15,7 +15,7 @@ Structure
 /firmware
   ├── src/               # Source code for the firmware
   ├── include/           # Header files (.h)
-  ├── LICENSE            # Full text of the GPLv3 license
+  ├── LICENSE.txt        # Full text of the GPLv3 license
   ├── README.md          # This document
   └── Makefile           # Build instructions (optional, if applicable)
 ```
@@ -23,15 +23,15 @@ Structure
 Licensing
 =========
 
-The firmware in this folder is released under the MIT License.
+The firmware in this folder is released under the GNU GPL License.
 
 By using or modifying this firmware, you agree to:
 
 Attribute the original authors.
 
-If you distribute any modified versions of this firmware, they must be released under the same MIT license.
+If you distribute any modified versions of this firmware, they must be released under the same GNU GPL license.
 
-Include a copy of the MIT license with any distribution of this firmware.
+Include a copy of the GNU GPL license with any distribution of this firmware.
 
 You can find the full license text in the LICENSE.txt file.
 
@@ -43,33 +43,32 @@ Each source file contains a copyright notice similar to the following:
 
 ```
 /*
-Rebelia-Hand-Firmware is the control software for the Rebelia Hand
+  Rebelia-Hand-Firmware is the control software for the Rebelia Hand
 
-Website: https://www.robotgarage.org
-Author: Vittorio Lumare
-Email: vittorio.lumar@robotgarage.org 
+  Website: https://www.robotgarage.org
+  Author: Vittorio Lumare
+  Email: vittorio.lumar@robotgarage.org 
 
-MIT License
+  GNU GPL License
 
-Copyright (c) 2025 Vittorio Lumare
+  Copyright (c) 2025 Vittorio Lumare
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+  
+  This file is part of Rebelia-Hand-Firmware.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+  Rebelia-Hand-Firmware is free software: you can redistribute it and/or 
+  modify it under the terms of the GNU General Public License as published 
+  by the Free Software Foundation, either version 3 of the License, or 
+  (at your option) any later version.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+  Rebelia-Hand-Firmware is distributed in the hope that it will be useful, 
+  but WITHOUT ANY WARRANTY; without even the implied warranty of 
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+  
+  See the GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License along 
+  with Rebelia-Hand-Firmware. If not, see <https://www.gnu.org/licenses/>. 
 */
 ```
 
@@ -80,7 +79,7 @@ This firmware may reference external libraries via `#include <library.h>`. These
 Please refer to the following external dependencies:
 
 * SCServo by FT&WS: (GNU GPL) — [https://github.com/workloads/scservo]
-* BluetoothSerial by Henry Abrahamsen: [License type] — [https://github.com/hen1227/bluetooth-serial]
+* BluetoothSerial by Henry Abrahamsen: [Released into the public domain] — [https://github.com/hen1227/bluetooth-serial]
 * ESP32FFT modified version by Vittorio Lumare: (Custom License) — [https://github.com/vittorio-lumare/ESP32FFT]
 	* Note:  The original version is by Robin Scheibler [https://github.com/fakufaku/esp32-fft]
 
