@@ -9,9 +9,9 @@ Hardware consists of CAD files.
 
 Firmware
 ========
-Hardware is released under the MIT license.
+Hardware is released under the GNU GPL license.
 Firmware consists of source code for the ESP32-based board.
 
 Pictures
 ========
-Pictures and photos are released under the Creative Commons Attribution License (CC-BY)
+Pictures and photos are released under the Creative Commons Attribution License (CC-BY-SA)
