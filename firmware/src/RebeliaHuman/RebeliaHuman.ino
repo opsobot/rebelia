@@ -40,9 +40,9 @@
 
 #define DEBUG_LOG true
 
-static const bool BLUETOOTH = true;
-static const bool PING_TEST = false;
-static const bool EMG_TEST = false;
+static const bool BLUETOOTH = true; // Control by Bluetooth Serial
+static const bool PING_TEST = false; // Test Motor Connection
+static const bool EMG_TEST = false; // Test EMG sensors
 
 
 FingersController fc;
