@@ -40,7 +40,7 @@
 
 #define DEBUG_LOG true
 
-static const bool BLUETOOTH = true; // Control by Bluetooth Serial
+static const bool BLUETOOTH = true; // Enable Serial Bluetooth Logging
 static const bool PING_TEST = false; // Test Motor Connection
 static const bool EMG_TEST = false; // Test EMG sensors
 
@@ -227,7 +227,7 @@ int showSerialCmd(const String& cmd) {
   }
 }
 
-const bool EMG_CONTROL = true;
+const bool EMG_CONTROL = true; // Enable control by EMG sensors
 const bool FINGERS_TEST = false;
 const bool CALIBRATION = false;
 void loop() {
