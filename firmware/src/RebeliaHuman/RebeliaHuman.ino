@@ -175,19 +175,19 @@ void updateClosureByEMG() {
   // EMG Decision Maker
   if (oo > EMG_OPEN_THR)  //&& cc < C_THR)
   {
-    if (DEBUG_LOG) Serial.println("O");
-    if (BLUETOOTH) SerialBT.println("O");
+    if (DEBUG_LOG) Serial.println("O"); // Open
+    if (BLUETOOTH) SerialBT.println("O"); // Open
 
     emg_cmd = 'O';
   }
   if (oo < EMG_OPEN_THR && cc > EMG_CLOSE_THR) {
-    if (DEBUG_LOG) Serial.println("C");
-    if (BLUETOOTH) SerialBT.println("C");
+    if (DEBUG_LOG) Serial.println("C"); // Close
+    if (BLUETOOTH) SerialBT.println("C"); // Close
     emg_cmd = 'C';
   }
   if (oo < EMG_OPEN_THR && cc < EMG_CLOSE_THR) {
-    if (DEBUG_LOG) Serial.println("N");
-    if (BLUETOOTH) SerialBT.println("N");
+    if (DEBUG_LOG) Serial.println("N"); // No action
+    if (BLUETOOTH) SerialBT.println("N"); // No action
     emg_cmd = 'N';
   }
 
@@ -201,10 +201,10 @@ void updateClosureByEMG() {
     g_emg_sequence.clear();
   }
 
-  if (emg_cmd == 'C') {
+  if (emg_cmd == 'C') { // Close
     g_closurePercent += 5;
   }
-  if (emg_cmd == 'O') {
+  if (emg_cmd == 'O') { // Open
     g_closurePercent -= 5;
   }
   g_closurePercent = constrain(g_closurePercent, 0, 100);
