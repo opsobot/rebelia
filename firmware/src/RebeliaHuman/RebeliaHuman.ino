@@ -228,8 +228,7 @@ int showSerialCmd(const String& cmd) {
 }
 
 const bool EMG_CONTROL = true; // Enable control by EMG sensors
-const bool FINGERS_TEST = false;
-const bool CALIBRATION = false;
+const bool BT_CONTROL = false; // Enable control by Bluetooth Serial
 void loop() {
 
   if (EMG_CONTROL) {
@@ -281,7 +280,7 @@ void loop() {
     }
   }
 
-  if (CALIBRATION) {
+  if (BT_CONTROL) {
 
     if (BLUETOOTH && SerialBT.available()) {
       auto cmd = SerialBT.readString();
