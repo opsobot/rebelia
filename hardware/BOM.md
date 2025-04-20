@@ -11,27 +11,71 @@ Servomotors
 
 Logic Board
 ===========
-For Robotic Version : 
+Robotic Version
+---------------
 * 1 x WaveShare - Servo Driver with ESP32
 
-For Prosthetic Version : 
-* TODO - List all components required to build the custom PCB board
+Prosthetic Version
+-----------------
+
+* Electronic Board Components
+  * CAPACITORS: 
+  	* CIN: 100uF/50V
+  	* COUT: 330uF/16V
+  	* C19: 100nF
+  	* C20: 100nF
+  * INDUCTORS: 
+  	* L1: 330uH
+  * DIODES: 
+  	* D1: 1N5819
+  * ICS: 
+  	* IC2575: LM2575T−5G (5V, TO-220)
+  	* ICESP32: ESP32-WROOM
+  	* ICRX: sn74lvc1g125
+  	* ICTX: sn74lvc1g126
+  * TRANSISTORS:
+  	* Q1: SS8550 (TO-92A)
+  * CONNECTORS: 
+  	* CNPWR:
+  	* CNEMG: 
+  	* CN5: MOLEX 90 DEG Mini SPOX 5268
+  * RESISTORS:
+  	* R19: 10k Ohm
+  	* R20: 10k Ohm
+  	* R21: 10k Ohm
+  	* R22: 10k Ohm
+  	* R23: 10k Ohm
+  	* R24: 10k Ohm
+* EMG Sensors
+  * 2 x OyMotion EMG Sensor
 
 Tendons
 =======
-* 1 x Fish line : HERCULES 8 Strands 200lbs Fishing Line Braided Grey Braided
+* 1 x Fish line : HERCULES 8 Braided Strands 200lbs, 0.75mm diameter, Grey
 
 Nuts and Bolts
 ==============
-* 10 x M3 nuts
-* 10 x M3 bolts, 10mm length
-* 28 x M2 self tapping screws, 8mm length
-* 28 x M2 self tapping screws, 6mm length
-* 4 x M2 self tapping screws, 10mm length
+Hand part (from wrist to fingers) - Robotic and Prosthetic version
+* Index, Middle, Ring and Little Fingers
+  * 4 x M3 nuts, inox stainless steel
+  * 4 x M3 bolts, 12mm length, hexagonal hole countersunk head, stainless steel
+* Spools
+  * 16 x M3 bolts, 10mm length, hexagonal hole button head, inox stainless steel (max head diameter 5.7mm)
+* Servos
+  * 20 x M2 self tapping screws, 8mm length, button head, inox stainless steel
+* Palm
+  * 7 x M2 self tapping screws, 10mm length
+* Covers
+  * 10 x M2 self tapping screws, 10mm length
+* Wrist : TODO (M3)
 
+Socket Part (from elbow to wrist) - Only Prosthetic version
+* Socked door : 4 x M2 self tapping screws, 10mm length
 
 3DP Filaments
 =============
-* TPU
-* PLA or ABS
+* Flexible Fingers: TPU + PLA/ABS
+* Thumb Base: PLA/PETG
+* Skeleton, Spools: ABS
+* Covers: PLA
 
