@@ -37,7 +37,13 @@ Prosthetic Version
   	* Q1: SS8550 (TO-92A)
   * CONNECTORS: 
   	* CNPWR:
-  	* CNEMG: 
+    * Alternatives:
+     * KF128 5.08mm pitch, 2 Positions, PCB Screw Terminal Blocks Connector for Wires
+     * Phoenix Contact MKDS 1,5/ 2-5,08 - PCB terminal block 
+  	* CNEMG:
+    * Alternatives
+     * KF128 2.54mm pitch, 6 Positions, PCB Screw Terminal Blocks Connector for Wires
+     * Phoenix Contact MPT 0,5/ 6-2,54 - PCB terminal block 
   	* CN5: MOLEX 90 DEG Mini SPOX 5268
   * RESISTORS:
   	* R19: 10k Ohm
@@ -47,7 +53,7 @@ Prosthetic Version
   	* R23: 10k Ohm
   	* R24: 10k Ohm
 * EMG Sensors
-  * 2 x OyMotion EMG Sensor
+  * 2 x OyMotion EMG Sensor (https://www.oymotion.tech/OYMotion-EMG-Sensor-Analog-Output-Set-pd768341688.html) 
 
 Tendons
 =======
