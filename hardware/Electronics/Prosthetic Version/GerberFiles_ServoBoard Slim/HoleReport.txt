@@ -1,0 +1,10 @@
+Tool   Size   Count  Plated
+
+ T1    0.0250     3     Yes
+ T2    0.0276     2     Yes
+ T3    0.0300     4     Yes
+ T4    0.0350    27     Yes
+ T5    0.0380     4     Yes
+ T6    0.0400    39     Yes
+ T7    0.0450     4     Yes
+ T8    0.1250     1     Yes

@@ -1,0 +1,94 @@
+317Ground           C19   -2    D 300PA00X  18358Y   2055X 620Y 620             
+317Ground           C20   -2    D 300PA00X  20850Y   3400X 620Y 620             
+317Ground           CIN   -2    D 380PA00X  10200Y   5850X 620Y 620             
+317Ground           CN5   -3    D 350PA00X  37400Y   9850X1000Y 800             
+317Ground           CNEMG -1    D 350PA00X   2000Y  12250X 620Y 620             
+317Ground           CNPWR -1    D 450PA00X   3000Y  10250X1000Y1000             
+317Ground           COUT  -2    D 380PA00X   2050Y   6050X 620Y 620             
+317Ground           D1    -P    D 400PA00X  20050Y   7750X1000Y1000             
+317Ground           IC2575-3    D 400PA00X  14568Y   9155X1000Y 600             
+317Ground           IC2575-5    D 400PA00X  14566Y  10502X1000Y 600             
+317Ground           ICESP3-14   D 400PA00X  20858Y  12055X 800Y 800             
+317Ground           ICESP3-17   D 400PA00X  20858Y   2055X 800Y 800             
+327Ground           ICRX  -3         PA01X  28948Y   8100X 197Y 246             
+327Ground           ICTX  -3         PA01X  32638Y   8074X 197Y 246             
+317Ground           R21   -2    D 350PA00X  35350Y  10850X 650Y 650             
+317Ground           VIA   -     D 400PA00X   5709Y   9843X 800Y 800             
+317Ground           VIA   -     D 400PA00X   5650Y   4350X 800Y 800             
+317Vcc3v3           C19   -1    D 300PA00X  18358Y   3055X 620Y 620             
+317Vcc3v3           C20   -1    D 300PA00X  19850Y   3400X 620Y 620             
+317Vcc3v3           ICESP3-16   D 400PA00X  19858Y   2055X 800Y 800             
+327Vcc3v3           ICRX  -5         PA01X  28199Y   7232X 197Y 246             
+327Vcc3v3           ICTX  -5         PA01X  31889Y   7206X 197Y 246             
+317Vcc3v3           Q1    -1    D 250PA00X  36400Y   4650X 550Y 550             
+317Vcc3v3           R19   -1    D 350PA00X  24108Y   7805X 650Y 650             
+317Vcc3v3           R23   -1    D 350PA00X  31608Y   5405X 650Y 650             
+317Vcc3v3           R24   -1    D 350PA00X  31608Y   4405X 650Y 650             
+317Vcc3v3           VIA   -     D 276PA00X  27150Y   5850X 700Y 700             
+317Vcc3v3           VIA   -     D 276PA00X  29050Y   5850X 700Y 700             
+317Vcc5v            CNEMG -2    D 350PA00X   3000Y  12250X 650Y 650             
+317Vcc5v            COUT  -1    D 380PA00X   2050Y   5050X 620Y 620             
+317Vcc5v            IC2575-4    D 400PA00X  14567Y   9843X1000Y 600             
+317Vcc5v            ICESP3-15   D 400PA00X  19858Y  12055X 800Y 800             
+317Vcc5v            L1    -2    D 450PA00X   1000Y   2100X1000Y1000             
+317Vcc5v            VIA   -     D 350PA00X   3800Y   5050X 700Y 700             
+317Vcc5v            VIA   -     D 350PA00X   3800Y   6750X 700Y 700             
+317Vcc12v           CIN   -1    D 380PA00X  10200Y   4850X 620Y 620             
+317Vcc12v           CN5   -2    D 350PA00X  37400Y  10850X1000Y 800             
+317Vcc12v           CNPWR -2    D 450PA00X   3000Y   8250X1000Y1000             
+317Vcc12v           IC2575-1    D 400PA00X  14569Y   7802X1000Y 600             
+317Output           D1    -N    D 400PA00X  16050Y   7750X1000Y1000             
+317Output           IC2575-2    D 400PA00X  14576Y   8481X1000Y 600             
+317Output           L1    -1    D 450PA00X  16000Y   2100X1000Y1000             
+317Q1Base           Q1    -2    D 250PA00X  36900Y   5150X 550Y 550             
+317Q1Base           R20   -1    D 350PA00X  30850Y   3600X 650Y 650             
+317R22toR21         R21   -1    D 350PA00X  35350Y   8850X 650Y 650             
+317R22toR21         R22   -2    D 350PA00X  36400Y   8850X 650Y 650             
+317Tx               ICESP3-25   D 400PA00X  28858Y   2055X 800Y 800             
+327Tx               ICTX  -2         PA01X  32264Y   8074X 197Y 246             
+317Tx               R20   -2    D 350PA00X  28850Y   3600X 650Y 650             
+317Tx               R23   -2    D 350PA00X  33608Y   5405X 650Y 650             
+317Tx               R24   -2    D 350PA00X  33608Y   4405X 650Y 650             
+317Tx               VIA   -     D 350PA00X  31650Y   9000X 700Y 700             
+317Tx               VIA   -     D 350PA00X  33650Y   9000X 700Y 700             
+317Rx               ICESP3-24   D 400PA00X  27858Y   2055X 800Y 800             
+327Rx               ICRX  -4         PA01X  28947Y   7232X 197Y 246             
+327TxEn             ICRX  -1         PA01X  28200Y   8100X 197Y 246             
+327TxEn             ICTX  -1         PA01X  31890Y   8074X 197Y 246             
+317TxEn             Q1    -3    D 250PA00X  36400Y   5650X 550Y 550             
+317TxEn             R22   -1    D 350PA00X  36400Y   6850X 650Y 650             
+317Data             CN5   -1    D 350PA00X  37400Y  11850X1000Y 800             
+327Data             ICRX  -2         PA01X  28574Y   8100X 197Y 246             
+327Data             ICTX  -4         PA01X  32637Y   7206X 197Y 246             
+317Data             R19   -2    D 350PA00X  24108Y   9805X 650Y 650             
+317Data             VIA   -     D 350PA00X  32650Y   6650X 700Y 700             
+317Data             VIA   -     D 350PA00X  32700Y  10500X 700Y 700             
+317Emg1             CNEMG -3    D 350PA00X   4000Y  12250X 650Y 650             
+317Emg1             ICESP3-4    D 400PA00X  30858Y  12055X 800Y 800             
+317Emg2             CNEMG -4    D 350PA00X   5000Y  12250X 650Y 650             
+317Emg2             ICESP3-5    D 400PA00X  29858Y  12055X 800Y 800             
+317Emg3             CNEMG -5    D 350PA00X   6000Y  12250X 650Y 650             
+317Emg3             ICESP3-6    D 400PA00X  28858Y  12055X 800Y 800             
+317Emg4             CNEMG -6    D 350PA00X   7000Y  12250X 650Y 650             
+317Emg4             ICESP3-7    D 400PA00X  27858Y  12055X 800Y 800             
+317N/C              ICESP3-1    D 400PA00X  33858Y  12055X 800Y 800             
+317N/C              ICESP3-10   D 400PA00X  24858Y  12055X 800Y 800             
+317N/C              ICESP3-11   D 400PA00X  23858Y  12055X 800Y 800             
+317N/C              ICESP3-12   D 400PA00X  22858Y  12055X 800Y 800             
+317N/C              ICESP3-13   D 400PA00X  21858Y  12055X 800Y 800             
+317N/C              ICESP3-18   D 400PA00X  21858Y   2055X 800Y 800             
+317N/C              ICESP3-19   D 400PA00X  22858Y   2055X 800Y 800             
+317N/C              ICESP3-2    D 400PA00X  32858Y  12055X 800Y 800             
+317N/C              ICESP3-20   D 400PA00X  23858Y   2055X 800Y 800             
+317N/C              ICESP3-21   D 400PA00X  24858Y   2055X 800Y 800             
+317N/C              ICESP3-22   D 400PA00X  25858Y   2055X 800Y 800             
+317N/C              ICESP3-23   D 400PA00X  26858Y   2055X 800Y 800             
+317N/C              ICESP3-26   D 400PA00X  29858Y   2055X 800Y 800             
+317N/C              ICESP3-27   D 400PA00X  30858Y   2055X 800Y 800             
+317N/C              ICESP3-28   D 400PA00X  31858Y   2055X 800Y 800             
+317N/C              ICESP3-29   D 400PA00X  32858Y   2055X 800Y 800             
+317N/C              ICESP3-3    D 400PA00X  31858Y  12055X 800Y 800             
+317N/C              ICESP3-30   D 400PA00X  33858Y   2055X 800Y 800             
+317N/C              ICESP3-8    D 400PA00X  26858Y  12055X 800Y 800             
+317N/C              ICESP3-9    D 400PA00X  25858Y  12055X 800Y 800             
+999                                                                             
