@@ -30,7 +30,7 @@ Prosthetic Version
   	* D1: 1N5819
   * ICS: 
   	* IC2575: LM2575T−5G (5V, TO-220)
-  	* ICESP32: ESP32-WROOM
+  	* ICESP32: ESP32-WROOM-32 30 Pin, Micro-USB
   	* ICRX: sn74lvc1g125
   	* ICTX: sn74lvc1g126
   * TRANSISTORS:
