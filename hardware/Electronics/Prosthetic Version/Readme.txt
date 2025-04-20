@@ -1,5 +1,5 @@
-Electronic Board - Prosthetic Version
-=====================================
+Electronics Board - Prosthetic Version
+======================================
 This project was made using Osmond PCB.
 
 The version used was OsmondCocoa 1.2.8 for MacOS.
