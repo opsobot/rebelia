@@ -51,6 +51,9 @@ Repository Structure
   ├── LICENSE (GNU GPL)
   ├── src/ (firmware code)
   ├── README.md (how to compile and upload the firmware)
+/docs
+  ├── Assembly Instructions.odt (Original source document)
+  ├── Assembly Instructions.pdf (Exported final document)
 ├── LICENSE (licenses description for the whole repo)
 ├── README.md (project overview)
 ```
