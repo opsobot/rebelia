@@ -1,4 +1,4 @@
-Rebelia V1.0.0 - An Open Source Robotic Hand for Humans and Robots
+Rebelia V2.0.0 - An Open Source Robotic Hand for Humans and Robots
 ==================================================================
 
 Overview
@@ -63,8 +63,8 @@ CAD Files
 =========
 
 Our CAD files are hosted on both GitHub and GrabCAD:
-* GitHub (for version control and collaboration): [View CAD files here](https://github.com/opsobot/rebelia/tree/main/hardware/CAD)
-* GrabCAD (for easy preview and download): [View on GrabCAD](https://grabcad.com/library/rebelia-hand-1)
+* GitHub (for version control and collaboration): ./hardware/CAD folder
+* GrabCAD (for easy preview and download): TODO when development is completed )
 
 Bill of Materials (BOM)
 =======================
