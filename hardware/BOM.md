@@ -3,7 +3,7 @@ Rebelia - An Open Source Robotic Hand for Humans and Robots
 
 BOM
 ===
-All components required to assemble Rebelia v1 are listed here.
+All components required to assemble Rebelia V2 are listed here.
 
 Servomotors
 ===========
@@ -13,7 +13,7 @@ Logic Board
 ===========
 Robotic Version
 ---------------
-* 1 x WaveShare - Servo Driver with ESP32
+* 1 x WaveShare - ESP32 Servo Driver
 
 Prosthetic Version
 -----------------
@@ -58,6 +58,7 @@ Prosthetic Version
 Tendons
 =======
 * 1 x Fish line : HERCULES 8 Braided Strands 200lbs, 0.75mm diameter, Grey
+* 1 x PTFE Pipe OD:3mm, ID:1.5mm, Length 1m
 
 Nuts and Bolts
 ==============
@@ -84,4 +85,9 @@ Socket Part (from elbow to wrist) - Only Prosthetic version
 * Thumb Base: PLA/PETG
 * Skeleton, Spools: ABS
 * Covers: PLA
+
+Silicone Pads
+=============
+* Smooth-On DragonSkin NV10 (https://www.smooth-on.com/products/dragon-skin-10-nv/)
+
 
