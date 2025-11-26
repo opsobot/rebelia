@@ -1,5 +1,5 @@
-Rebelia - An Open Source Robotic Hand for Humans and Robots
-===========================================================
+Rebelia V1.0.0 - An Open Source Robotic Hand for Humans and Robots
+==================================================================
 
 Overview
 ========
