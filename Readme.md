@@ -1,5 +1,6 @@
 Rebelia V1.0.0 - An Open Source Robotic Hand for Humans and Robots
 ==================================================================
+NOTE: This Project and Team is not affiliated with igus ReBeL .
 
 Overview
 ========
