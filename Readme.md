@@ -5,7 +5,19 @@ NOTE: This Project and Team is not affiliated with igus ReBeL .
 Overview
 ========
 
-Welcome to the Rebelia Hand Project — an open-source, humanlike robotic hand designed for researchers, students, and robotics enthusiasts.
+**Note: This is the official repository for the OSHWA-certified Rebelia Robotic Hand.**
+
+Rebelia Robotic Hand is an open-source, humanlike robotic hand designed for researchers, students, and robotics enthusiasts.
+
+The project is now publicly known and branded as the **🎉 YEAH Hand! 🎉**
+*   **Official Certified Name:** Rebelia Robotic Hand
+*   **Public Brand Name:** YEAH Hand
+
+NOTE: This Project and Team is not affiliated with igus ReBeL .
+
+This means you've found the right place!
+
+All the files, issues, and discussions for the YEAH Hand are located right here in this `opsobot/rebelia` repository.
 
 Our goal is to provide an affordable, high-performance robotic hand under 2000 EUR, open to community contributions and continuous improvement.
 
