@@ -13,8 +13,6 @@ The project is now publicly known and branded as the **🎉 YEAH Hand! 🎉**
 *   **Official Certified Name:** Rebelia Robotic Hand
 *   **Public Brand Name:** YEAH Hand
 
-NOTE: This Project and Team is not affiliated with igus ReBeL .
-
 This means you've found the right place!
 
 All the files, issues, and discussions for the YEAH Hand are located right here in this `opsobot/rebelia` repository.
