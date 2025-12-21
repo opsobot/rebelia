@@ -1,23 +1,12 @@
-Rebelia V1.0.0 - An Open Source Robotic Hand for Humans and Robots
+Yeah Hand - An Open Source Robotic Hand for Humans and Robots
 ==================================================================
-NOTE: This Project and Team is not affiliated with igus ReBeL .
 
 Overview
 ========
 
-**Note: This is the official repository for the OSHWA-certified Rebelia Robotic Hand.**
+Yeah Hand is an open-source, humanlike robotic hand designed for researchers, students, and robotics enthusiasts.
 
-Rebelia Robotic Hand is an open-source, humanlike robotic hand designed for researchers, students, and robotics enthusiasts.
-
-The project is now publicly known and branded as the **🎉 YEAH Hand! 🎉**
-*   **Official Certified Name:** Rebelia Robotic Hand
-*   **Public Brand Name:** YEAH Hand
-
-This means you've found the right place!
-
-All the files, issues, and discussions for the YEAH Hand are located right here in this `opsobot/rebelia` repository.
-
-Our goal is to provide an affordable, high-performance robotic hand under 2000 EUR, open to community contributions and continuous improvement.
+Our goal is to provide a low cost (< 2k EUR), affordable, high-performance robotic hand, open to community contributions and continuous improvement.
 
 This project hardware is released under the CERN Open Hardware License (OHL-S), ensuring the design remains open-source and preventing patent claims on its core innovations.
 
@@ -75,7 +64,7 @@ CAD Files
 
 Our CAD files are hosted on both GitHub and GrabCAD:
 * GitHub (for version control and collaboration): [View CAD files here](https://github.com/opsobot/rebelia/tree/main/hardware/CAD)
-* GrabCAD (for easy preview and download): [View on GrabCAD](https://grabcad.com/library/rebelia-hand-1)
+* GrabCAD (for easy preview and download): [View on GrabCAD](https://grabcad.com/library/yeah-hand-1)
 
 Bill of Materials (BOM)
 =======================
