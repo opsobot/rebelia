@@ -1,6 +1,9 @@
 Rebelia V2.0.0 - An Open Source Robotic Hand for Humans and Robots
 ==================================================================
 
+Note: This V2 branch has been frozen, its development continues as [Yeah Hand](https://github.com/OPSOBOT/yeah-hand)
+
+
 Overview
 ========
 
