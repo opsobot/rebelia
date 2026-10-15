@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use or build on this design, please cite it as below."
+title: "Yeah Hand (formerly Rebelia): an open source tendon-driven robotic and prosthetic hand"
+type: software
+authors:
+  - family-names: "Lumare"
+    given-names: "Vittorio"
+    affiliation: "RobotGarage"
+    email: "vittorio.lumare@robotgarage.org"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+abstract: >-
+  Open source anthropomorphic hand, fully 3D-printable, usable as a robotic end
+  effector and as an active prosthetic hand. Five serial bus servomotors housed
+  in the hand skeleton drive the fingers through antagonistic flexion and extension
+  tendons wound on one spool per actuator; ring and little fingers are coupled
+  through a sliding tendon loop; the ESP32-based firmware provides load-based
+  tendon calibration, force-limited grasps, grasp presets and two-channel FFT-based EMG control.
+repository-code: "https://github.com/opsobot/rebelia"
+url: "https://www.robotgarage.org"
+license: CERN-OHL-S-2.0
+version: "1.0.0"
+date-released: "2025-03-03"
+keywords:
+  - open source hardware
+  - robotic hand
+  - prosthetic hand
+  - tendon-driven
+  - underactuated
+  - gripper
+  - 3D printing
+  - ESP32
+# doi: "10.5281/zenodo.XXXXXXX"   # add the concept DOI after the first Zenodo release

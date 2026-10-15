@@ -1,12 +1,16 @@
 Rebelia V1.0.0 - An Open Source Robotic Hand for Humans and Robots
 ==================================================================
+*Not affiliated with igus ReBeL.*
+
+> **This is Rebelia V1, the version certified by OSHWA.** Development continues as
+> **Yeah Hand** (V2) in [opsobot/yeah-hand](https://github.com/opsobot/yeah-hand).
 
 Overview
 ========
 
 Welcome to the Rebelia Hand Project — an open-source, humanlike robotic hand designed for researchers, students, and robotics enthusiasts.
 
-This version (V1) has been certified by OSHWA, you can see the certificate [here](https://certification.oshwa.org/it000021.html).
+This version (V1) has been certified by OSHWA, you can see the certificate [here](https://certification.oshwa.org/it000021.html) (UID IT000021, 4 April 2025).
 
 Our goal is to provide an affordable, high-performance robotic hand under 2000 EUR, open to community contributions and continuous improvement.
 
@@ -56,8 +60,12 @@ Repository Structure
 /docs
   ├── Assembly Instructions.odt (Original source document)
   ├── Assembly Instructions.pdf (Exported final document)
+  ├── defensive-publication/ (technical disclosure for prior-art purposes)
 ├── LICENSE (licenses description for the whole repo)
 ├── README.md (project overview)
+├── VARIANTS.md (alternative embodiments and possible extensions)
+├── TRADEMARK.md (use of the Yeah Hand name)
+├── CITATION.cff, .zenodo.json (citation and archiving metadata)
 ```
 
 
@@ -80,15 +88,16 @@ Licensing
 =========
 This project is licensed under multiple licenses:
 * Hardware : released under the CERN Open Hardware License Strongly Reciprocal v2 (CERN OHL-S). [Full license text](https://ohwr.org/project/cernohl/-/wikis/uploads/819d71bea3458f71fba6cf4fb0f2de6b/cern_ohl_s_v2.txt)
-* Firmware : released under the GNU GPL License. [Full license text](https://www.gnu.org/licenses/gpl-3.0.html)
-* Multimedia : released under the Creative Commons Attribution License (CC-BY-SA). [Full license text](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+* Firmware : released under the GNU GPL License, version 3 or later. [Full license text](https://www.gnu.org/licenses/gpl-3.0.html)
+* Documentation and multimedia : released under the Creative Commons Attribution-ShareAlike 4.0 License (CC-BY-SA). [Full license text](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
 
-By using or modifying this hardware, software and/or documentation, you agree to:
-* Credit the original authors.
-* If you release any modifications or derivatives to hardware, they must be released under the same CERN OHL-S license.
-* If you release any modifications or derivatives to firmware, they must be released under the same GNU GPL license.
-* If you release any modifications or derivatives to multimedia content, they must be released under the same CC-BY-SA license.
-* Prevent patent claims on the design and any derivative works.
+Anyone may study, build, modify and sell this design or products based on it. In short, if you distribute the design, modified versions or products made from it, you must:
+* Credit the original authors and keep the license notices.
+* Release modifications or derivatives of the hardware under the same CERN OHL-S license, with their sources, and indicate the Source Location (https://github.com/opsobot/rebelia) on products where practicable.
+* Release modifications or derivatives of the firmware under the GNU GPL license.
+* Release modifications or derivatives of documentation and multimedia content under the CC-BY-SA license.
+
+Both CERN OHL-S v2 and GNU GPLv3 include a patent licence: every contributor grants all users the rights under their patents needed to use what they distribute, and anyone who starts patent litigation over the design loses their rights under the licence. See the LICENSE file for details.
 
 Contributing
 ============
@@ -97,10 +106,26 @@ We welcome contributions! Please:
 2. Create a branch (feature-xyz).
 3. Submit a pull request.
 
+Contributions are accepted under the same license as the part of the repository they modify. If you introduce a new technical solution, please also describe it, with any alternatives you considered, in [VARIANTS.md](VARIANTS.md): publishing ideas openly keeps them free for everyone.
+
 Defensive Publication
 =====================
-This design is publicly released to establish prior art and prevent patenting by third parties. 
-Our goal is to ensure that the robotic hand remains open and accessible to all.
+This design is publicly released to establish prior art and prevent patenting by third parties.
+Our goal is to ensure that the robotic hand remains open and accessible to all: nobody should be able to obtain exclusive rights that stop anyone else from making, improving or selling it.
+
+* First public disclosure on GitHub: 3 March 2025 (mechanics), 30 March 2025 (firmware, including two-channel EMG control), 20 April 2025 (electronics).
+* OSHWA certification record, an independent dated record of the prosthetic version with two EMG sensors: [IT000021](https://certification.oshwa.org/it000021.html), 4 April 2025.
+* Alternative embodiments and extensions: [VARIANTS.md](VARIANTS.md)
+* Technical disclosure: [docs/defensive-publication](docs/defensive-publication/technical-disclosure.md), also published on [Technical Disclosure Commons]([TDCOMMONS LINK])
+* Archived releases with permanent DOI: [Zenodo]([ZENODO DOI LINK])
+
+Trademark
+=========
+The design is free. Its successor is sold as "Yeah Hand", a registered EU trademark (EUTM no. 019374244). You are welcome to build and sell your own version under your own name, and to say it is "based on the Yeah Hand". See [TRADEMARK.md](TRADEMARK.md).
+
+How to Cite
+===========
+Use the "Cite this repository" button on GitHub or the metadata in [CITATION.cff](CITATION.cff).
 
 For further information, visit our website: http://www.robotgarage.org
 

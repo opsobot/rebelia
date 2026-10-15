@@ -1,0 +1,31 @@
+{
+  "title": "Yeah Hand (formerly Rebelia): an open source tendon-driven robotic and prosthetic hand",
+  "upload_type": "other",
+  "description": "<p>Open source anthropomorphic hand, fully 3D-printable, usable as a robotic end effector and as an active prosthetic hand.</p><p>Five serial bus servomotors housed in the internal skeleton of the hand drive the fingers through antagonistic flexion and extension tendons wound in opposite directions on one spool per actuator. Ring and little fingers share one actuator through a sliding tendon loop that lets them adapt to the object. The thumb base is mounted directly on the output flange of the thumb rotation actuator. The ESP32-based firmware performs load-based tendon calibration at start-up, force-limited grasps and grasp presets controlled by a single closure value. In the prosthetic version, two surface EMG channels are processed by FFT and compared with two intensity thresholds to open, close or hold the hand; the grasp can be selected by rotating the unpowered thumb by hand.</p><p>This record contains the complete design files (CAD, STL, electronic board, firmware) and documentation. It is published as open source hardware and as a public technical disclosure (prior art). First public disclosure on GitHub: 3 March 2025.</p><p>Hardware: CERN-OHL-S-2.0. Firmware: GPL-3.0-or-later. Documentation and images: CC-BY-SA-4.0. \"Yeah Hand\" is a registered EU trademark.</p>",
+  "creators": [
+    {
+      "name": "Lumare, Vittorio",
+      "affiliation": "RobotGarage"
+    }
+  ],
+  "license": "cern-ohl-s-2.0",
+  "access_right": "open",
+  "keywords": [
+    "open source hardware",
+    "OSHW",
+    "robotic hand",
+    "prosthetic hand",
+    "tendon-driven",
+    "underactuated",
+    "gripper",
+    "3D printing",
+    "defensive publication"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/opsobot/rebelia",
+      "relation": "isSupplementTo",
+      "resource_type": "other"
+    }
+  ]
+}
