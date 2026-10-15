@@ -65,6 +65,9 @@ First public disclosure of the design on GitHub (https://github.com/opsobot/rebe
    Additional features: automatic relax after a period at 0% closure; grasp
    selection by rotating the unpowered thumb by hand and reading its
    position; optional grasp switching by a double-open EMG pattern.
+   Generalisation: N EMG channels (N ≥ 1), each with its own threshold or
+   feeding a machine-learning model (alone or combined with FFT features)
+   that outputs open / close / hold, a closure value or a grasp type.
 9. **Grasp presets controlled by one parameter.** Predefined grasps (power,
    small power, "monkey"/hook, pinch, relax, power tool) map a single closure
    value from 0 to 100% to a different trajectory for each finger. A RAW mode
@@ -79,13 +82,13 @@ First public disclosure of the design on GitHub (https://github.com/opsobot/rebe
 
 | Element | Reference implementation | Alternatives |
 |---|---|---|
-| Skeleton | Single FDM-printed internal skeleton housing all actuators, with separate palm part and covers | Multi-part printed assembly; SLS/MJF nylon; injection-moulded; CNC-machined aluminium or magnesium; carbon-fibre composite; cast resin |
+| Skeleton | Single FDM-printed internal skeleton housing all actuators, with separate palm part and covers | Any shape of the skeleton that houses the actuators and supports fingers and covers: different outlines, sections, lengths and widths, open frame or closed shell, lattice or topology-optimised structure, different positions and orientations of the actuator slots; multi-part printed assembly; SLS/MJF nylon; injection-moulded; CNC-machined aluminium or magnesium; carbon-fibre composite; cast resin |
 | Finger structure | Printed phalanges with rigid and flexible parts | Fully rigid phalanges with pin joints; compliant (flexure) joints printed in TPU/TPE; monolithic finger with living hinges; overmoulded rigid core and soft skin; elastic return elements (springs, elastic cords) instead of extension tendons |
 | Number of phalanges | 3 per finger, 2 for the thumb | 2 or 4 phalanges; fused distal-medial phalanges with fixed coupling |
 | Number of fingers | 5 | 2, 3 or 4 fingers using the same modules; 6-finger or mirrored-thumb grippers; left and right hand versions |
 | Scale | Human-size hand | Child-size, partial hand (individual fingers for partial amputations), oversize industrial gripper, miniature versions |
-| Covers | Snap-fit printed covers | Silicone glove; textured high-friction pads; sensorised skin; cosmetic covers; interchangeable fingertips (soft, hard, tool tips) |
-| Wrist | Joint with soft bearings | Movable wrist with 1, 2 or 3 rotational axes: pronation/supination, flexion/extension and radial/ulnar deviation, alone or in any combination; each axis passive (manually positioned, with friction or locking), compliant, or actuated (motors in the wrist, in the forearm or in the hand skeleton, direct or through tendons, gears or linkages); spherical or parallel-mechanism wrist; rigid quick-disconnect; standard prosthetic wrist interfaces (e.g. threaded or bayonet); ISO 9409 robot flange |
+| Covers | Snap-fit printed covers | Covers of any shape, size, style and colour (anthropomorphic, stylised, industrial, partial or none), fixed by snap-fit, screws, magnets or straps, in rigid or soft materials; silicone glove; textured high-friction pads; sensorised skin; cosmetic covers; interchangeable fingertips (soft, hard, tool tips) |
+| Wrist | Joint with soft bearings | Movable wrist rotating about the X, Y and/or Z axis, i.e. 1, 2 or 3 rotational axes: pronation/supination, flexion/extension and radial/ulnar deviation, alone or in any combination; each axis passive (manually positioned, with friction or locking), compliant, or actuated (motors in the wrist, in the forearm or in the hand skeleton, direct or through tendons, gears or linkages); spherical or parallel-mechanism wrist; rigid quick-disconnect; standard prosthetic wrist interfaces (e.g. threaded or bayonet); ISO 9409 robot flange |
 | Mounting | Robot flange with alignment pin; prosthetic socket cover | Quick-change tool changer; magnetic coupling; direct socket lamination; adapter plates for different robot brands |
 
 ## 3. Transmission and tendon variants
@@ -116,8 +119,15 @@ First public disclosure of the design on GitHub (https://github.com/opsobot/rebe
 
 - Grasp selection and closure commanded by: Bluetooth serial (reference),
   Wi-Fi, USB, wired UART, robot I/O, CAN, ROS / ROS 2 nodes.
-- For prosthetic use: surface EMG (one or more channels, pattern
-  recognition or threshold control), force myography, ultrasound sensing,
+- For prosthetic use: surface EMG with a generic number N of channels
+  (1, 2 or more sensors, single electrodes or arrays/sleeves), with signal
+  processing by FFT (reference), by machine learning (e.g. neural networks,
+  support vector machines, LDA, random forests, trained on the user's
+  signals to classify gestures or estimate continuous closure/force), or by a
+  combination of both (FFT or other spectral/time-domain features fed to a
+  machine-learning classifier or regressor), with threshold, proportional or
+  pattern-recognition control, and optional online adaptation or
+  recalibration of the model; force myography, ultrasound sensing,
   implanted sensors, foot switches, voice commands, smartphone app,
   co-contraction to switch grasp, IMU gestures, automatic grasp selection by a
   camera and object recognition.
