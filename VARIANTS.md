@@ -19,7 +19,7 @@ First public disclosure of the design on GitHub (https://github.com/opsobot/rebe
 | Electronic board, prosthetic version | 2025-04-20 |
 | Assembly instructions | 2025-11-12 |
 | Robotic version firmware (Yeah Hand) | 2025-12-21 |
-| This document | [YYYY-MM-DD] |
+| This document | 2026-10-15 |
 
 ---
 
@@ -151,4 +151,4 @@ Discarded solutions are prior art too.*
 
 | Date | Change |
 |---|---|
-| [YYYY-MM-DD] | First version of this document |
+| 2026-10-15 | First version of this document |

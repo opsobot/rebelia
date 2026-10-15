@@ -115,7 +115,7 @@ Our goal is to ensure that the robotic hand remains open and accessible to all: 
 
 Trademark
 =========
-The design is free; the name "Yeah Hand" and its logo are registered EU trademarks. You are welcome to build and sell your own version under your own name, and to say it is "based on the Yeah Hand". See [TRADEMARK.md](TRADEMARK.md).
+The design is free; the name "Yeah Hand" and its logo are registered EU trademarks (EUTM no. 019374244). You are welcome to build and sell your own version under your own name, and to say it is "based on the Yeah Hand". See [TRADEMARK.md](TRADEMARK.md).
 
 How to Cite
 ===========

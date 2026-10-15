@@ -5,7 +5,8 @@ sell it, or products derived from it, under the terms of the licenses in this
 repository (see LICENSE).
 
 **"Yeah Hand"** is a registered European Union trademark
-(EUIPO registration no. [NUMBER]) owned by [OWNER].
+(EUIPO registration no. 019374244, registered on 16 September 2026)
+owned by Vittorio Lumare.
 The name and the logo identify products made or approved by the trademark
 owner, so that buyers know who stands behind their quality and support.
 
