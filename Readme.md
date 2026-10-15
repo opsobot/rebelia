@@ -1,13 +1,18 @@
-Yeah Hand - An Open Source Robotic Hand for Humans and Robots
+Rebelia V1.0.0 - An Open Source Robotic Hand for Humans and Robots
 ==================================================================
-*Formerly published as Rebelia. Not affiliated with igus ReBeL.*
+*Not affiliated with igus ReBeL.*
+
+> **This is Rebelia V1, the version certified by OSHWA.** Development continues as
+> **Yeah Hand** (V2) in [opsobot/yeah-hand](https://github.com/opsobot/yeah-hand).
 
 Overview
 ========
 
-Yeah Hand is an open-source, humanlike robotic hand designed for researchers, students, and robotics enthusiasts.
+Welcome to the Rebelia Hand Project — an open-source, humanlike robotic hand designed for researchers, students, and robotics enthusiasts.
 
-Our goal is to provide a low cost (< 2k EUR), affordable, high-performance robotic hand, open to community contributions and continuous improvement.
+This version (V1) has been certified by OSHWA, you can see the certificate [here](https://certification.oshwa.org/it000021.html) (UID IT000021, 4 April 2025).
+
+Our goal is to provide an affordable, high-performance robotic hand under 2000 EUR, open to community contributions and continuous improvement.
 
 This project hardware is released under the CERN Open Hardware License (OHL-S), ensuring the design remains open-source and preventing patent claims on its core innovations.
 
@@ -69,7 +74,7 @@ CAD Files
 
 Our CAD files are hosted on both GitHub and GrabCAD:
 * GitHub (for version control and collaboration): [View CAD files here](https://github.com/opsobot/rebelia/tree/main/hardware/CAD)
-* GrabCAD (for easy preview and download): [View on GrabCAD](https://grabcad.com/library/yeah-hand-1)
+* GrabCAD (for easy preview and download): [View on GrabCAD](https://grabcad.com/library/rebelia-hand-1)
 
 Bill of Materials (BOM)
 =======================
@@ -108,14 +113,15 @@ Defensive Publication
 This design is publicly released to establish prior art and prevent patenting by third parties.
 Our goal is to ensure that the robotic hand remains open and accessible to all: nobody should be able to obtain exclusive rights that stop anyone else from making, improving or selling it.
 
-* First public disclosure on GitHub: 3 March 2025 (mechanics), 30 March 2025 (firmware), 20 April 2025 (electronics).
+* First public disclosure on GitHub: 3 March 2025 (mechanics), 30 March 2025 (firmware, including two-channel EMG control), 20 April 2025 (electronics).
+* OSHWA certification record, an independent dated record of the prosthetic version with two EMG sensors: [IT000021](https://certification.oshwa.org/it000021.html), 4 April 2025.
 * Alternative embodiments and extensions: [VARIANTS.md](VARIANTS.md)
 * Technical disclosure: [docs/defensive-publication](docs/defensive-publication/technical-disclosure.md), also published on [Technical Disclosure Commons]([TDCOMMONS LINK])
 * Archived releases with permanent DOI: [Zenodo]([ZENODO DOI LINK])
 
 Trademark
 =========
-The design is free; the name "Yeah Hand" is a registered EU trademark (EUTM no. 019374244). You are welcome to build and sell your own version under your own name, and to say it is "based on the Yeah Hand". See [TRADEMARK.md](TRADEMARK.md).
+The design is free. Its successor is sold as "Yeah Hand", a registered EU trademark (EUTM no. 019374244). You are welcome to build and sell your own version under your own name, and to say it is "based on the Yeah Hand". See [TRADEMARK.md](TRADEMARK.md).
 
 How to Cite
 ===========
