@@ -85,7 +85,7 @@ First public disclosure of the design on GitHub (https://github.com/opsobot/rebe
 | Number of fingers | 5 | 2, 3 or 4 fingers using the same modules; 6-finger or mirrored-thumb grippers; left and right hand versions |
 | Scale | Human-size hand | Child-size, partial hand (individual fingers for partial amputations), oversize industrial gripper, miniature versions |
 | Covers | Snap-fit printed covers | Silicone glove; textured high-friction pads; sensorised skin; cosmetic covers; interchangeable fingertips (soft, hard, tool tips) |
-| Wrist | Joint with soft bearings | Rigid quick-disconnect; passive compliant wrist; actuated wrist rotation and/or flexion; standard prosthetic wrist interfaces (e.g. threaded or bayonet); ISO 9409 robot flange |
+| Wrist | Joint with soft bearings | Movable wrist with 1, 2 or 3 rotational axes: pronation/supination, flexion/extension and radial/ulnar deviation, alone or in any combination; each axis passive (manually positioned, with friction or locking), compliant, or actuated (motors in the wrist, in the forearm or in the hand skeleton, direct or through tendons, gears or linkages); spherical or parallel-mechanism wrist; rigid quick-disconnect; standard prosthetic wrist interfaces (e.g. threaded or bayonet); ISO 9409 robot flange |
 | Mounting | Robot flange with alignment pin; prosthetic socket cover | Quick-change tool changer; magnetic coupling; direct socket lamination; adapter plates for different robot brands |
 
 ## 3. Transmission and tendon variants
