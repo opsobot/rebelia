@@ -5,8 +5,9 @@ sell it, or products derived from it, under the terms of the licenses in this
 repository (see LICENSE).
 
 **"Yeah Hand"** is a registered European Union trademark
-(EUIPO registration no. [NUMBER]) owned by [OWNER].
-The name and the logo identify products made or approved by the trademark
+(EUIPO registration no. 019374244, registered on 16 September 2026)
+owned by Vittorio Lumare.
+The name identifies products made or approved by the trademark
 owner, so that buyers know who stands behind their quality and support.
 
 ## You may, without asking
@@ -24,7 +25,8 @@ owner, so that buyers know who stands behind their quality and support.
 
 - Sell or advertise a product **named** "Yeah Hand", or with a confusingly
   similar name.
-- Use the Yeah Hand logo on your products, packaging, shop pages or advertising.
+- Use the Yeah Hand name as a brand on your products, packaging, shop pages
+  or advertising.
 - Suggest that your product is official, endorsed, tested or certified by the
   trademark owner.
 

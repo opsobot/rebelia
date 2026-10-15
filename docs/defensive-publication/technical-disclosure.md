@@ -1,4 +1,4 @@
-# Tendon-driven anthropomorphic hand with palm-housed actuators, single-spool antagonistic tendons and load-based adaptive grasping, for robotic and prosthetic use
+# Tendon-driven anthropomorphic hand with actuators housed in the hand skeleton, single-spool antagonistic tendons, load-based adaptive grasping and two-channel EMG control, for robotic and prosthetic use
 
 **Author:** Vittorio Lumare, RobotGarage (vittorio.lumare@robotgarage.org)
 **Project name:** Yeah Hand (formerly Rebelia)
@@ -12,7 +12,8 @@
 
 An anthropomorphic hand, manufacturable by 3D printing, usable both as a robotic
 end effector and as an active prosthetic hand. Five rotary actuators are housed
-inside a single skeleton forming the palm. Each finger is moved by a flexion
+inside a single internal skeleton of the hand, to which the fingers, the
+palm part and the covers are attached. Each finger is moved by a flexion
 tendon and an extension tendon fixed to the same spool on one actuator and
 wound in opposite directions, so one actuator actively both closes and opens the
 finger. Tendons are routed through holes in the printed phalanges and anchored
@@ -22,7 +23,9 @@ closure. The thumb base is mounted directly on the output flange of a thumb
 rotation actuator. Servo position and load feedback are used for automatic
 tendon calibration at start-up and for grasps that close each finger until a
 load limit is reached. Grasp presets map a single 0–100% closure command to
-different finger trajectories.
+different finger trajectories. In the prosthetic version, two surface EMG
+sensors are processed by FFT; the signal intensity of each is compared with its
+own threshold to increase, decrease or hold the closure value.
 
 ## Keywords
 
@@ -30,7 +33,8 @@ robotic hand; prosthetic hand; artificial hand; gripper; end effector;
 tendon-driven; cable-driven; antagonistic tendons; flexor tendon; extensor
 tendon; spool; capstan; underactuated; differential coupling; adaptive grasp;
 force-limited grasp; servo load feedback; tendon calibration; thumb opposition;
-3D-printed hand; myoelectric prosthesis; grasp preset
+3D-printed hand; myoelectric prosthesis; grasp preset; EMG; electromyography; FFT; threshold
+control; grasp selection; back-drivable thumb
 
 ## Background
 
@@ -44,7 +48,8 @@ position commands either crush soft objects or fail to grasp irregular ones.
 
 ### 1. Skeleton and actuators (Fig. 1)
 
-A single skeleton part forms the palm and contains five slots, one per
+A single internal skeleton part, covered by a separate palm part and by front
+and back covers, contains five slots, one per
 actuator: index flexion, middle flexion, ring-and-little flexion, thumb
 flexion and thumb rotation. In the reference implementation the actuators are
 serial bus servomotors (WaveShare ST3215) connected in a daisy chain, each
@@ -126,7 +131,41 @@ limited force. A global torque limit is also set on each actuator.
 
 d. **RAW mode.** The closure of each degree of freedom is set independently.
 
-e. **Command protocol.** Plain-text commands over a serial link (Bluetooth in
+e. **Two-channel EMG control (prosthetic version).** Two surface EMG sensors
+are placed on two muscle groups, one assigned to opening and one to closing.
+In each control cycle the controller samples each sensor (in the reference
+firmware 512 samples at about 9.9 kHz), removes the DC component, applies a
+Hamming window and computes the FFT magnitude; the intensity is taken as the
+magnitude in a frequency bin around 200 Hz. Each channel has its own intensity
+threshold. Decision rule:
+- open-channel intensity above its threshold → decrease the closure value
+  (open), regardless of the close channel;
+- open channel below threshold and close channel above its threshold →
+  increase the closure value (close);
+- both below their thresholds → keep the closure value unchanged.
+The closure value is changed by a fixed step (5% in the reference firmware) per
+cycle and limited to 0–100%; it is applied to the selected grasp preset, so a
+single proportional value drives all fingers along the preset trajectories,
+with the force-limited closing of point c. Giving priority to the open channel
+makes releasing an object always possible.
+
+f. **Automatic relax.** If the closure value stays at 0% for a set time (60 s
+in the reference firmware), the hand automatically switches to the relaxed
+grasp posture.
+
+g. **Grasp selection by manual thumb positioning.** While the hand is open, the
+controller disables the torque of the thumb rotation actuator, so the user can
+rotate the thumb by hand with the other hand. The controller reads the actuator
+position and selects the grasp preset whose thumb rotation position is closest
+(within a tolerance), e.g. power, small power, hook, pinch or relax. Torque is
+enabled again when closing starts. The thumb thus works as a mechanical grasp
+selector, without extra buttons or sensors.
+
+h. **Grasp switching by EMG pattern.** As an option, the sequence of recent
+EMG decisions (open / close / none) is stored in a short buffer while the hand
+is open; a double "open" pulse pattern cycles to the next grasp preset.
+
+i. **Command protocol.** Plain-text commands over a serial link (Bluetooth in
 the reference implementation), framed as `#CMD##\r\n`: grasp names select the
 grasp, a number sets the closure, and `I<n>M<n>R<n>T<n>TR<n>` sets the five
 degrees of freedom in RAW mode.
@@ -149,6 +188,7 @@ assembly instructions, with reference numbers):*
 - Fig. 4 — Spool with flexion and extension tendons wound in opposite directions.
 - Fig. 5 — Ring–little coupling: clamp and sliding loop.
 - Fig. 6 — Flow chart of calibration and force-limited closing.
+- Fig. 6b — Flow chart of the two-channel EMG decision rule.
 - Fig. 7 — Assembled hand, robotic and prosthetic configurations.
 
 ## Alternative embodiments
@@ -164,12 +204,18 @@ skeleton may be printed, moulded, cast or machined. Load sensing may be
 replaced or complemented by fingertip force sensors, tendon tension sensors or
 tactile skins. Commands may come from a robot controller, a computer, a
 smartphone, EMG or other biosignal sensors, or a camera-based grasp selector.
+EMG intensity may be computed as band power over several FFT bins, RMS,
+envelope or wavelet features instead of a single bin; one, two or more EMG
+channels may be used, with proportional instead of fixed-step closure changes,
+adaptive or user-calibrated thresholds, or pattern-recognition classifiers.
+The grasp may be selected by manual positioning of any back-drivable joint, not
+only the thumb.
 Further variants are listed in `VARIANTS.md` of the repository, which is part
 of this disclosure.
 
 ## Advantages
 
-- Compact: all actuators in the palm, no forearm required.
+- Compact: all actuators inside the hand skeleton, no forearm required.
 - Active opening and closing with one actuator per finger, no return springs.
 - Adaptive grasp of irregular objects with fewer actuators.
 - Automatic calibration compensates tendon stretch and assembly tolerances.

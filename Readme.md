@@ -59,7 +59,7 @@ Repository Structure
 ├── LICENSE (licenses description for the whole repo)
 ├── README.md (project overview)
 ├── VARIANTS.md (alternative embodiments and possible extensions)
-├── TRADEMARK.md (use of the Yeah Hand name and logo)
+├── TRADEMARK.md (use of the Yeah Hand name)
 ├── CITATION.cff, .zenodo.json (citation and archiving metadata)
 ```
 
@@ -115,7 +115,7 @@ Our goal is to ensure that the robotic hand remains open and accessible to all: 
 
 Trademark
 =========
-The design is free; the name "Yeah Hand" and its logo are registered EU trademarks. You are welcome to build and sell your own version under your own name, and to say it is "based on the Yeah Hand". See [TRADEMARK.md](TRADEMARK.md).
+The design is free; the name "Yeah Hand" is a registered EU trademark (EUTM no. 019374244). You are welcome to build and sell your own version under your own name, and to say it is "based on the Yeah Hand". See [TRADEMARK.md](TRADEMARK.md).
 
 How to Cite
 ===========
