@@ -47,7 +47,7 @@ Each source file contains a copyright notice similar to the following:
 
   Website: https://www.robotgarage.org
   Author: Vittorio Lumare
-  Email: vittorio.lumar@robotgarage.org 
+  Email: vittorio.lumare@robotgarage.org 
 
   GNU GPL License
 

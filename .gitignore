@@ -1,2 +1,5 @@
 .DS_Store
 
+
+# Arduino build output (binaries are published in GitHub Releases, not in the repository)
+build/
