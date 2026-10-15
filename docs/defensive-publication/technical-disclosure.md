@@ -181,11 +181,12 @@ cover, socket cover and a wrist joint with soft bearings.
 ## Figures
 
 The figures are included in the PDF version of this disclosure
-(`technical-disclosure.pdf` in this folder). Sources: `hardware/renders/` and
-`docs/Assembly Instructions.pdf`.
+(`technical-disclosure.pdf` in this folder). Sources:
+`docs/Assembly Instructions.pdf`; Figs. 1, 2 and 11 are rendered from the
+Rebelia V1 STL files in `hardware/CAD/STL`.
 
-- Fig. 1 — Assembled hand, front and back renders.
-- Fig. 2 — Internal skeleton, front and rear views.
+- Fig. 1 — Rebelia V1 assembled: palmar, dorsal and three-quarter views.
+- Fig. 2 — Internal skeleton, front and rear views; skeleton with thumb base, spool and fingers, covers removed.
 - Fig. 3 — Skeleton with the five actuators installed, front and rear views.
 - Fig. 4 — Arrangement of actuators, spools and tendons-barrier.
 - Fig. 5 — Thumb base mounted on the thumb rotation actuator flange; thumb installed.
@@ -194,7 +195,7 @@ The figures are included in the PDF version of this disclosure
 - Fig. 8 — Schematic of the ring–little coupling: clamp and sliding loop.
 - Fig. 9 — Flow chart of start-up calibration and force-limited closing.
 - Fig. 10 — Flow chart of the two-channel EMG decision rule.
-- Fig. 11 — Main dimensions of the hand.
+- Fig. 11 — Prosthetic configuration with socket cover; main dimensions of the hand.
 
 ## Alternative embodiments
 
