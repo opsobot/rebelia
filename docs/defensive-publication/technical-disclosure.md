@@ -1,10 +1,11 @@
 # Tendon-driven anthropomorphic hand with actuators housed in the hand skeleton, single-spool antagonistic tendons, load-based adaptive grasping and two-channel EMG control, for robotic and prosthetic use
 
-**Author:** Vittorio Lumare, RobotGarage (vittorio.lumare@robotgarage.org)
-**Project name:** Yeah Hand (formerly Rebelia)
-**First public disclosure:** 3 March 2025, https://github.com/opsobot/rebelia
-**Archived release:** Zenodo DOI [to be added]
-**License of this document:** CC BY 4.0
+- **Author:** Vittorio Lumare, RobotGarage (vittorio.lumare@robotgarage.org)
+- **Project name:** Yeah Hand (formerly Rebelia)
+- **First public disclosure:** 3 March 2025, https://github.com/opsobot/rebelia
+- **Archived releases (Zenodo):** v1.0.0 https://doi.org/10.5281/zenodo.23394100 ; OSHWA certification snapshot https://doi.org/10.5281/zenodo.23395450
+- **OSHWA certification:** IT000021, 4 April 2025, https://certification.oshwa.org/it000021.html
+- **License of this document:** CC BY 4.0
 
 ---
 
@@ -46,7 +47,7 @@ position commands either crush soft objects or fail to grasp irregular ones.
 
 ## Description
 
-### 1. Skeleton and actuators (Fig. 1)
+### 1. Skeleton and actuators (Figs. 2, 3, 4)
 
 A single internal skeleton part, covered by a separate palm part and by front
 and back covers, contains five slots, one per
@@ -57,14 +58,14 @@ fixed by four M2 screws. The upper fingers are inserted in slots at the top of
 the skeleton and fixed by one M3 bolt each. A tendons-barrier part is screwed to
 the rear of the skeleton to separate and guide the tendons towards the spools.
 
-### 2. Thumb (Fig. 2)
+### 2. Thumb (Fig. 5)
 
 The thumb base is bolted directly onto the output flange of the thumb rotation
 actuator, so that the actuator rotates the whole thumb about an axis that
 produces opposition. The thumb is bolted to the thumb base and is flexed by a
 tendon driven by the thumb flexion actuator located in the skeleton.
 
-### 3. Fingers and tendon routing (Fig. 3)
+### 3. Fingers and tendon routing (Fig. 7)
 
 Each finger is made of printed phalanges. A tendon enters from the rear of the
 skeleton, crosses to the front, and is threaded in sequence through holes in the
@@ -76,7 +77,7 @@ back through holes on the dorsal side of the phalanges (extension path), exits
 at the rear of the skeleton, passes over the tendons-barrier and reaches the
 spool. Tendons are threaded using a loop of thin nylon line used as a needle.
 
-### 4. Single-spool antagonistic actuation (Fig. 4)
+### 4. Single-spool antagonistic actuation (Fig. 6)
 
 A spool is bolted to the output flange of each flexion actuator. The flexion
 tendon is wound about half a turn in one direction and locked under a bolt head
@@ -89,7 +90,7 @@ installation the firmware moves the actuators to a predefined tendon
 installation position; each tendon is pulled until the finger is at its
 maximum opening and then locked.
 
-### 5. Ring–little differential coupling (Fig. 5)
+### 5. Ring–little differential coupling (Fig. 8)
 
 Ring and little fingers each have their own tendon routed as in section 3. At
 the rear of the skeleton the ends of the two tendons are joined in one crimped
@@ -109,7 +110,7 @@ single-gate tri-state buffers (sn74lvc1g125 / sn74lvc1g126) converting the
 microcontroller UART into the half-duplex serial bus of the servomotors.
 Supply: 12 V DC.
 
-### 7. Control method (Fig. 6)
+### 7. Control method (Figs. 9, 10)
 
 a. **Start-up tendon calibration.** For each flexion actuator the controller
 moves the finger towards opening in small increments, reading the actuator load
@@ -170,7 +171,7 @@ the reference implementation), framed as `#CMD##\r\n`: grasp names select the
 grasp, a number sets the closure, and `I<n>M<n>R<n>T<n>TR<n>` sets the five
 degrees of freedom in RAW mode.
 
-### 8. Configurations
+### 8. Configurations (Figs. 1, 11)
 
 The same skeleton, fingers and actuators are used in two configurations: a
 robotic gripper with a flange and alignment pin for mounting on a robot wrist,
@@ -179,17 +180,21 @@ cover, socket cover and a wrist joint with soft bearings.
 
 ## Figures
 
-*Add before publishing (renders from `hardware/renders/` and figures from the
-assembly instructions, with reference numbers):*
+The figures are included in the PDF version of this disclosure
+(`technical-disclosure.pdf` in this folder). Sources: `hardware/renders/` and
+`docs/Assembly Instructions.pdf`.
 
-- Fig. 1 — Skeleton with the five actuators, front and rear views.
-- Fig. 2 — Thumb base on the thumb rotation actuator flange.
-- Fig. 3 — Tendon path through a finger and distal self-locking wrap.
-- Fig. 4 — Spool with flexion and extension tendons wound in opposite directions.
-- Fig. 5 — Ring–little coupling: clamp and sliding loop.
-- Fig. 6 — Flow chart of calibration and force-limited closing.
-- Fig. 6b — Flow chart of the two-channel EMG decision rule.
-- Fig. 7 — Assembled hand, robotic and prosthetic configurations.
+- Fig. 1 — Assembled hand, front and back renders.
+- Fig. 2 — Internal skeleton, front and rear views.
+- Fig. 3 — Skeleton with the five actuators installed, front and rear views.
+- Fig. 4 — Arrangement of actuators, spools and tendons-barrier.
+- Fig. 5 — Thumb base mounted on the thumb rotation actuator flange; thumb installed.
+- Fig. 6 — Spools on the actuator flanges; spool holes (HS: tendon holes, BS: locking bolts).
+- Fig. 7 — Fingers installed on the skeleton; tendon holes of the index finger.
+- Fig. 8 — Schematic of the ring–little coupling: clamp and sliding loop.
+- Fig. 9 — Flow chart of start-up calibration and force-limited closing.
+- Fig. 10 — Flow chart of the two-channel EMG decision rule.
+- Fig. 11 — Main dimensions of the hand.
 
 ## Alternative embodiments
 
