@@ -26,7 +26,8 @@ First public disclosure of the design on GitHub (https://github.com/opsobot/rebe
 ## 1. Core concepts of the reference design
 
 1. **All actuators inside the hand.** Five rotary actuators are housed in a
-   single printed skeleton forming the palm: four for finger flexion (index,
+   single printed internal skeleton of the hand (covered by a separate palm
+   part and covers): four for finger flexion (index,
    middle, ring+little, thumb) and one for thumb rotation/opposition. No
    forearm-mounted actuators are needed, so the same hand can be mounted on a
    robot flange or on a prosthetic socket.
@@ -56,13 +57,21 @@ First public disclosure of the design on GitHub (https://github.com/opsobot/rebe
    - grasps that close each finger until a per-finger load limit is reached
      (force-limited, shape-adaptive grasping);
    - torque limiting of each actuator.
-8. **Grasp presets controlled by one parameter.** Predefined grasps (power,
+8. **Two-channel EMG control (prosthetic version).** Two surface EMG
+   sensors (open and close). Each signal is processed by FFT and its intensity
+   is compared with its own threshold: open above threshold → decrease
+   closure; only close above threshold → increase closure; both below → hold.
+   Open has priority. Closure changes by fixed steps within 0–100%.
+   Additional features: automatic relax after a period at 0% closure; grasp
+   selection by rotating the unpowered thumb by hand and reading its
+   position; optional grasp switching by a double-open EMG pattern.
+9. **Grasp presets controlled by one parameter.** Predefined grasps (power,
    small power, "monkey"/hook, pinch, relax, power tool) map a single closure
    value from 0 to 100% to a different trajectory for each finger. A RAW mode
    sets each degree of freedom independently. A dedicated mode moves the
    actuators to the positions needed for tendon installation.
-9. **Simple text command protocol** over a wireless or wired serial link.
-10. **Two configurations from the same core**: robotic gripper with mounting
+10. **Simple text command protocol** over a wireless or wired serial link.
+11. **Two configurations from the same core**: robotic gripper with mounting
     flange, and prosthetic hand with socket cover, wrist connection and a wrist
     joint with compliant (soft) bearings.
 
@@ -70,7 +79,7 @@ First public disclosure of the design on GitHub (https://github.com/opsobot/rebe
 
 | Element | Reference implementation | Alternatives |
 |---|---|---|
-| Skeleton / palm | Single FDM-printed part housing all actuators | Multi-part printed assembly; SLS/MJF nylon; injection-moulded; CNC-machined aluminium or magnesium; carbon-fibre composite; cast resin |
+| Skeleton | Single FDM-printed internal skeleton housing all actuators, with separate palm part and covers | Multi-part printed assembly; SLS/MJF nylon; injection-moulded; CNC-machined aluminium or magnesium; carbon-fibre composite; cast resin |
 | Finger structure | Printed phalanges with rigid and flexible parts | Fully rigid phalanges with pin joints; compliant (flexure) joints printed in TPU/TPE; monolithic finger with living hinges; overmoulded rigid core and soft skin; elastic return elements (springs, elastic cords) instead of extension tendons |
 | Number of phalanges | 3 per finger, 2 for the thumb | 2 or 4 phalanges; fused distal-medial phalanges with fixed coupling |
 | Number of fingers | 5 | 2, 3 or 4 fingers using the same modules; 6-finger or mirrored-thumb grippers; left and right hand versions |

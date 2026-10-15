@@ -11,10 +11,10 @@ authors:
 abstract: >-
   Open source anthropomorphic hand, fully 3D-printable, usable as a robotic end
   effector and as an active prosthetic hand. Five serial bus servomotors housed
-  in the palm drive the fingers through antagonistic flexion and extension
+  in the hand skeleton drive the fingers through antagonistic flexion and extension
   tendons wound on one spool per actuator; ring and little fingers are coupled
   through a sliding tendon loop; the ESP32-based firmware provides load-based
-  tendon calibration, force-limited grasps and grasp presets.
+  tendon calibration, force-limited grasps, grasp presets and two-channel FFT-based EMG control.
 repository-code: "https://github.com/opsobot/rebelia"
 url: "https://www.robotgarage.org"
 license: CERN-OHL-S-2.0
