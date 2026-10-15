@@ -3,8 +3,9 @@ Rebelia V1.0.0 - An Open Source Robotic Hand for Humans and Robots
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23394100.svg)](https://doi.org/10.5281/zenodo.23394100)
 *Not affiliated with igus ReBeL.*
 
-> **This is Rebelia V1, the version certified by OSHWA.** Development continues as
-> **Yeah Hand** (V2) in [opsobot/yeah-hand](https://github.com/opsobot/yeah-hand).
+> **This is Rebelia V1, the version certified by OSHWA.** The next version, Rebelia V2
+> (branch `V2`), became **Yeah Hand** v1.0; development continues in
+> [opsobot/yeah-hand](https://github.com/opsobot/yeah-hand).
 
 Overview
 ========
