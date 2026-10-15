@@ -1,5 +1,6 @@
 Rebelia V1.0.0 - An Open Source Robotic Hand for Humans and Robots
 ==================================================================
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23394100.svg)](https://doi.org/10.5281/zenodo.23394100)
 *Not affiliated with igus ReBeL.*
 
 > **This is Rebelia V1, the version certified by OSHWA.** Development continues as
@@ -117,7 +118,7 @@ Our goal is to ensure that the robotic hand remains open and accessible to all: 
 * OSHWA certification record, an independent dated record of the prosthetic version with two EMG sensors: [IT000021](https://certification.oshwa.org/it000021.html), 4 April 2025.
 * Alternative embodiments and extensions: [VARIANTS.md](VARIANTS.md)
 * Technical disclosure: [docs/defensive-publication](docs/defensive-publication/technical-disclosure.md), also published on [Technical Disclosure Commons]([TDCOMMONS LINK])
-* Archived releases with permanent DOI: [Zenodo]([ZENODO DOI LINK])
+* Archived releases with permanent DOI on Zenodo: v1.0.0 [10.5281/zenodo.23394100](https://doi.org/10.5281/zenodo.23394100)
 
 Trademark
 =========

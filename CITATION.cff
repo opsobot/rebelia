@@ -29,4 +29,4 @@ keywords:
   - gripper
   - 3D printing
   - ESP32
-# doi: "10.5281/zenodo.XXXXXXX"   # add the concept DOI after the first Zenodo release
+doi: "10.5281/zenodo.23394100"
