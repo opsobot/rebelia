@@ -118,7 +118,7 @@ Our goal is to ensure that the robotic hand remains open and accessible to all: 
 * First public disclosure on GitHub: 3 March 2025 (mechanics), 30 March 2025 (firmware, including two-channel EMG control), 20 April 2025 (electronics).
 * OSHWA certification record, an independent dated record of the prosthetic version with two EMG sensors: [IT000021](https://certification.oshwa.org/it000021.html), 4 April 2025.
 * Alternative embodiments and extensions: [VARIANTS.md](VARIANTS.md)
-* Technical disclosure: [docs/defensive-publication](docs/defensive-publication/technical-disclosure.md), also published on [Technical Disclosure Commons]([TDCOMMONS LINK])
+* Technical disclosure: [docs/defensive-publication](docs/defensive-publication/technical-disclosure.md), also published on [Technical Disclosure Commons](https://www.tdcommons.org/dpubs_series/12266) (posted 16 October 2026)
 * Archived releases with permanent DOI on Zenodo: v1.0.0 [10.5281/zenodo.23394100](https://doi.org/10.5281/zenodo.23394100)
 
 Trademark

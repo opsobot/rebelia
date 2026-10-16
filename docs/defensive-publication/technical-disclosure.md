@@ -5,6 +5,7 @@
 - **First public disclosure:** 3 March 2025, https://github.com/opsobot/rebelia
 - **Archived releases (Zenodo):** v1.0.0 https://doi.org/10.5281/zenodo.23394100 ; OSHWA certification snapshot https://doi.org/10.5281/zenodo.23395450
 - **OSHWA certification:** IT000021, 4 April 2025, https://certification.oshwa.org/it000021.html
+- **Published on Technical Disclosure Commons:** https://www.tdcommons.org/dpubs_series/12266
 - **License of this document:** CC BY 4.0
 
 ---
